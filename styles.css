@@ -1,0 +1,23 @@
+/* 文档同步器插件样式 */
+
+/* 调整设置界面中输入框的宽度 */
+.mpclipper-sync-settings .setting-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.mpclipper-sync-settings .setting-item-info {
+  flex: 0 0 45%; /* 左侧标签区域占 45% */
+}
+
+.mpclipper-sync-settings .setting-item-control {
+  flex: 0 0 55%; /* 右侧控件区域占 55% */
+}
+
+/* 确保输入框充满控件区域 */
+.mpclipper-sync-settings input[type="text"],
+.mpclipper-sync-settings input[type="password"],
+.mpclipper-sync-settings select,
+.mpclipper-sync-settings .dropdown {
+  width: 100%;
+}
