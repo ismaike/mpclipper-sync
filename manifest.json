@@ -6,7 +6,7 @@
 	"versionName": "0.0.1",
 	"versionCode": "1",
 	"minAppVersion": "0.15.0",
-	"description": "从 S3 同步 Markdown 文档到 Obsidian",
+	"description": "从 S3 对象存储同步 Markdown 文档",
 	"author": "MK",
 	"authorUrl": "https://github.com/ismaike",
 	"isDesktopOnly": false
